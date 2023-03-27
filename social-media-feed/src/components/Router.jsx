@@ -6,13 +6,16 @@ import {
 } from "react-router-dom";
 import Feed from "../pages/Feed";
 import Post from "../pages/Post";
+import Layout from "./Layout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<Feed />} />
-      <Route path="/feed" element={<Feed />} />
-      <Route path="/post" element={<Post />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<Feed />} />
+        <Route path="/feed" element={<Feed />} />
+        <Route path="/post" element={<Post />} />
+      </Route>
     </>
   )
 );

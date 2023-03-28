@@ -8,10 +8,13 @@
     margin-top: 20px;
     user-select: none;
     transition: 200ms;
+}
+
+.post.clickable {
     cursor: pointer;
 }
 
-.post:hover {
+.post.clickable:hover {
     scale: 1.05;
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);
 }

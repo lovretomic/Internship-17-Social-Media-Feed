@@ -7,16 +7,16 @@ const handlePostClick = (id) => {
   window.location.href = `/post/${id}`;
 };
 
-const Post = ({ postId, keyIndex }) => {
+const Post = ({ postId, keyIndex, isClickable }) => {
   const post = posts.find((post) => post.id === +postId);
-  if (post) console.log("POST", post);
-  else console.log("NO POST", posts, postId);
   const userData = users.find((user) => user.id === post.userId);
   return (
     <div
-      className={classes.post}
+      className={`${classes.post} ${isClickable ? classes.clickable : ""}`}
       key={keyIndex}
-      onClick={() => handlePostClick(post.id)}
+      onClick={() => {
+        if (isClickable) handlePostClick(post.id);
+      }}
     >
       <div className={classes.postHeader}>
         <img

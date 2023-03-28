@@ -7,7 +7,7 @@ const PostPage = () => {
   const { postId } = useParams();
   return (
     <div>
-      <Post postId={postId} keyIndex={0} />
+      <Post postId={postId} keyIndex={0} isClickable={false} />
     </div>
   );
 };

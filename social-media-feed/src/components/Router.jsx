@@ -4,18 +4,21 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import Feed from "../pages/Feed";
+import FeedPage from "../pages/FeedPage";
 import NotFound from "../pages/NotFound";
-import Post from "../pages/Post";
+import PostPage from "../pages/PostPage";
 import Layout from "./Layout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route element={<Layout />}>
-        <Route path="/" element={<Feed />} />
-        <Route path="/feed" element={<Feed />} />
-        <Route path="/post" element={<Post />} />
+        <Route path="/" element={<FeedPage />} />
+        <Route path="/feed" element={<FeedPage />} />
+        <Route path="/post">
+          <Route index element={<NotFound />}></Route>
+          <Route path=":postId" element={<PostPage />} />
+        </Route>
       </Route>
       <Route path="*" element={<NotFound />} />
     </>

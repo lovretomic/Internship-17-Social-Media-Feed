@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "fullName": "John Smith",
+      "username": "jsmith",
+      "profilePic": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+    },
+    {
+      "id": 2,
+      "fullName": "Jane Doe",
+      "username": "jdoe",
+      "profilePic": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+    },
+    {
+      "id": 3,
+      "fullName": "Michael Johnson",
+      "username": "mjohnson",
+      "profilePic": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+    },
+    {
+      "id": 4,
+      "fullName": "Emily Chen",
+      "username": "echen",
+      "profilePic": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+    },
+    {
+      "id": 5,
+      "fullName": "David Lee",
+      "username": "dlee",
+      "profilePic": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg"
+    }
+  ]
+  

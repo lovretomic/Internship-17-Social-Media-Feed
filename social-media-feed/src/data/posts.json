@@ -1,98 +1,49 @@
 [
     {
-      "id": 0,
-      "userId": 1,
-      "timestamp": "2022-09-10T14:30:00.000Z",
-      "text": "Just went for a run and it feels great!",
-      "comments": [
-        {
-          "userId": 2,
-          "body": "Good for you! I should go for a run too."
-        },
-        {
-          "userId": 3,
-          "body": "I prefer lifting weights, but glad you enjoyed your run."
-        }
-      ]
-    },
-    {
       "id": 1,
-      "userId": 2,
-      "timestamp": "2022-09-11T16:45:00.000Z",
-      "text": "Had an amazing time at the beach today! 🏖️",
+      "userId": 1,
+      "timestamp": "2023-03-28T14:20:25.000Z",
+      "text": "This is a post",
       "comments": [
         {
-          "userId": 1,
-          "body": "Looks like you had a great day! Wish I could have gone to the beach too."
+          "id": 1,
+          "userId": 2,
+          "body": "Great post!",
+          "timestamp": "2023-03-28T14:20:25.000Z"
         },
         {
-          "userId": 5,
-          "body": "I'm so jealous! I've been meaning to go to the beach for ages."
+          "id": 2,
+          "userId": 3,
+          "body": "Thanks for sharing!",
+          "timestamp": "2023-03-28T14:20:25.000Z"
         }
       ]
     },
     {
       "id": 2,
       "userId": 3,
-      "timestamp": "2022-09-12T09:15:00.000Z",
-      "text": "Just finished reading a great book. Highly recommend it!",
+      "timestamp": "2023-03-28T14:20:25.000Z",
+      "text": "Another post",
       "comments": [
         {
-          "userId": 4,
-          "body": "What book was it? I'm always looking for recommendations."
-        },
-        {
-          "userId": 2,
-          "body": "Thanks for the recommendation! I'll add it to my reading list."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "userId": 4,
-      "timestamp": "2022-09-13T13:00:00.000Z",
-      "text": "Feeling productive today. Got a lot of work done!",
-      "comments": [
-        {
-          "userId": 3,
-          "body": "Nice work! Keep it up."
-        },
-        {
-          "userId": 5,
-          "body": "I wish I could say the same. I've been so unproductive lately."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "userId": 5,
-      "timestamp": "2022-09-14T11:30:00.000Z",
-      "text": "Trying out a new recipe today. Hope it turns out well!",
-      "comments": [
-        {
+          "id": 3,
           "userId": 1,
-          "body": "What are you making? I'm always looking for new recipes to try."
+          "body": "Nice one!",
+          "timestamp": "2023-03-28T14:20:25.000Z"
         },
         {
-          "userId": 4,
-          "body": "Let us know how it turns out! I'm curious to hear."
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "userId": 1,
-      "timestamp": "2022-09-15T18:00:00.000Z",
-      "text": "Just got back from a trip to Japan. It was amazing!",
-      "comments": [
-        {
+          "id": 4,
           "userId": 2,
-          "body": "I'm so jealous! Japan is at the top of my travel list."
+          "body": "I agree!",
+          "timestamp": "2023-03-28T14:20:25.000Z"
         },
         {
-          "userId": 3,
-          "body": "What was your favorite part of the trip?"
+          "id": 5,
+          "userId": 4,
+          "body": "Keep it up!",
+          "timestamp": "2023-03-28T14:20:25.000Z"
         }
       ]
     }
-]
+  ]
+  

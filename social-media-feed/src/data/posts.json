@@ -1,5 +1,6 @@
 [
     {
+      "id": 0,
       "userId": 1,
       "timestamp": "2022-09-10T14:30:00.000Z",
       "text": "Just went for a run and it feels great!",
@@ -15,6 +16,7 @@
       ]
     },
     {
+      "id": 1,
       "userId": 2,
       "timestamp": "2022-09-11T16:45:00.000Z",
       "text": "Had an amazing time at the beach today! 🏖️",
@@ -30,6 +32,7 @@
       ]
     },
     {
+      "id": 2,
       "userId": 3,
       "timestamp": "2022-09-12T09:15:00.000Z",
       "text": "Just finished reading a great book. Highly recommend it!",
@@ -45,6 +48,7 @@
       ]
     },
     {
+      "id": 3,
       "userId": 4,
       "timestamp": "2022-09-13T13:00:00.000Z",
       "text": "Feeling productive today. Got a lot of work done!",
@@ -60,6 +64,7 @@
       ]
     },
     {
+      "id": 4,
       "userId": 5,
       "timestamp": "2022-09-14T11:30:00.000Z",
       "text": "Trying out a new recipe today. Hope it turns out well!",
@@ -75,6 +80,7 @@
       ]
     },
     {
+      "id": 5,
       "userId": 1,
       "timestamp": "2022-09-15T18:00:00.000Z",
       "text": "Just got back from a trip to Japan. It was amazing!",

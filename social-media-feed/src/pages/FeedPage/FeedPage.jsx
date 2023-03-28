@@ -1,33 +1,10 @@
-import classes from "./index.module.css";
-
+import Post from "../../components/Post";
 import posts from "../../data/posts.json";
-import users from "../../data/users.json";
 
 posts.sort((a, b) => b.timestamp - a.timestamp);
 
-const handlePostClick = (postId) => {
-  window.location.href = `/post/${postId}`;
-};
-
 const FeedPage = () => {
-  console.log(posts);
-  return posts.map((post, i) => {
-    const userData = users.find((user) => user.id === post.userId);
-    return (
-      <div className={classes.post} key={i} onClick={() => handlePostClick(i)}>
-        <div className={classes.postHeader}>
-          <img
-            className={classes.postImg}
-            src={userData.profilePic}
-            alt="profilePic"
-          />
-          <p className={classes.postUsername}>{userData.username}</p>
-        </div>
-
-        <p className={classes.postText}>{post.text}</p>
-      </div>
-    );
-  });
+  return posts.map((post, i) => <Post postId={post.id} keyIndex={i} />);
 };
 
 export default FeedPage;

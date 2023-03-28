@@ -8,9 +8,10 @@ const handlePostClick = (id) => {
 };
 
 const Post = ({ postId, keyIndex }) => {
-  const post = posts.find((post) => post.id === postId);
+  const post = posts.find((post) => post.id === +postId);
+  if (post) console.log("POST", post);
+  else console.log("NO POST", posts, postId);
   const userData = users.find((user) => user.id === post.userId);
-  console.log(post);
   return (
     <div
       className={classes.post}

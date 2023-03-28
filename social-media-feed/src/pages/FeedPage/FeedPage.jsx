@@ -5,12 +5,16 @@ import users from "../../data/users.json";
 
 posts.sort((a, b) => b.timestamp - a.timestamp);
 
+const handlePostClick = (postId) => {
+  window.location.href = `/post/${postId}`;
+};
+
 const FeedPage = () => {
   console.log(posts);
   return posts.map((post, i) => {
     const userData = users.find((user) => user.id === post.userId);
     return (
-      <div className={classes.post} key={i}>
+      <div className={classes.post} key={i} onClick={() => handlePostClick(i)}>
         <div className={classes.postHeader}>
           <img
             className={classes.postImg}

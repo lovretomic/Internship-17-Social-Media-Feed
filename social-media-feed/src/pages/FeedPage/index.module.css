@@ -1,0 +1,30 @@
+.post {
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 500px;
+    border: 1px solid rgb(240, 240, 240);
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.postImg {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.postUsername {
+    margin: 0;
+}
+
+.postText {
+    margin: 0;
+}

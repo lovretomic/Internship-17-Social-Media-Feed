@@ -14,6 +14,7 @@ const Post = ({ postId, keyIndex, isClickable }) => {
     return;
   }
   const userData = users.find((user) => user.id === post.userId);
+  const postTimestamp = new Date(post.timestamp);
   return (
     <div
       className={`${classes.post} ${isClickable ? classes.clickable : ""}`}
@@ -32,6 +33,11 @@ const Post = ({ postId, keyIndex, isClickable }) => {
       </div>
 
       <p className={classes.postText}>{post.text}</p>
+      <p
+        className={classes.postTimestamp}
+      >{`Posted on ${postTimestamp.getDate()}/${
+        postTimestamp.getMonth() + 1
+      }/${postTimestamp.getFullYear()} at ${postTimestamp.getHours()}:${postTimestamp.getSeconds()}`}</p>
     </div>
   );
 };

@@ -9,6 +9,7 @@ const Comments = ({ postId }) => {
 
   return comments.map((comment, i) => {
     const userData = users.find((user) => user.id === comment.userId);
+    const postTimestamp = new Date(comment.timestamp);
     return (
       <div className={classes.post} key={i}>
         <div className={classes.postHeader}>
@@ -21,6 +22,11 @@ const Comments = ({ postId }) => {
         </div>
 
         <p className={classes.postText}>{comment.body}</p>
+        <p
+          className={classes.postTimestamp}
+        >{`Posted on ${postTimestamp.getDate()}/${
+          postTimestamp.getMonth() + 1
+        }/${postTimestamp.getFullYear()} at ${postTimestamp.getHours()}:${postTimestamp.getSeconds()}`}</p>
       </div>
     );
   });

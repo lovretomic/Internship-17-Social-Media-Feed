@@ -9,6 +9,10 @@ const handlePostClick = (id) => {
 
 const Post = ({ postId, keyIndex, isClickable }) => {
   const post = posts.find((post) => post.id === +postId);
+  if (!post) {
+    window.location.href = "/404";
+    return;
+  }
   const userData = users.find((user) => user.id === post.userId);
   return (
     <div

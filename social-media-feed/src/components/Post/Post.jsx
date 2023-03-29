@@ -33,11 +33,16 @@ const Post = ({ postId, keyIndex, isClickable }) => {
       </div>
 
       <p className={classes.postText}>{post.text}</p>
-      <p
-        className={classes.postTimestamp}
-      >{`Posted on ${postTimestamp.getDate()}/${
-        postTimestamp.getMonth() + 1
-      }/${postTimestamp.getFullYear()} at ${postTimestamp.getHours()}:${postTimestamp.getSeconds()}`}</p>
+      <p className={classes.postTimestamp}>
+        {`Posted on ${postTimestamp.getDate()}/${
+          postTimestamp.getMonth() + 1
+        }/${postTimestamp.getFullYear()} at ${
+          (postTimestamp.getHours() < 10 ? "0" : "") + postTimestamp.getHours()
+        }:${
+          (postTimestamp.getSeconds() < 10 ? "0" : "") +
+          postTimestamp.getSeconds()
+        }`}
+      </p>
     </div>
   );
 };

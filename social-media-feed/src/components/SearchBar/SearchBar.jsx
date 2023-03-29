@@ -13,6 +13,10 @@ const SearchBar = ({ searchParam }) => {
     else window.location.href = `/feed`;
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") handleButtonClick();
+  };
+
   return (
     <div className={classes.searchBar}>
       <input
@@ -21,6 +25,7 @@ const SearchBar = ({ searchParam }) => {
         type="text"
         placeholder="Search feed"
         onChange={handleInput}
+        onKeyDown={handleKeyDown}
       />
       <button className={classes.searchBarButton} onClick={handleButtonClick}>
         Search

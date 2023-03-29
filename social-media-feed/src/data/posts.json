@@ -1,49 +1,128 @@
 [
-    {
-      "id": 1,
-      "userId": 1,
-      "timestamp": "2023-03-28T14:20:25.000Z",
-      "text": "This is a post",
-      "comments": [
-        {
-          "id": 1,
-          "userId": 2,
-          "body": "Great post!",
-          "timestamp": "2023-03-28T14:20:25.000Z"
-        },
-        {
-          "id": 2,
-          "userId": 3,
-          "body": "Thanks for sharing!",
-          "timestamp": "2023-03-28T14:20:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "timestamp": "2023-03-28T14:20:25.000Z",
-      "text": "Another post",
-      "comments": [
-        {
-          "id": 3,
-          "userId": 1,
-          "body": "Nice one!",
-          "timestamp": "2023-03-28T14:20:25.000Z"
-        },
-        {
-          "id": 4,
-          "userId": 2,
-          "body": "I agree!",
-          "timestamp": "2023-03-28T14:20:25.000Z"
-        },
-        {
-          "id": 5,
-          "userId": 4,
-          "body": "Keep it up!",
-          "timestamp": "2023-03-28T14:20:25.000Z"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "userId": 7,
+    "timestamp": "2023-03-28T14:20:25.000Z",
+    "text": "Regular exercise has numerous benefits for both physical and mental health. It can help you maintain a healthy weight, reduce your risk of chronic diseases like heart disease and diabetes, improve your mood and energy levels, and even boost your cognitive function. Despite these benefits, many people still struggle to incorporate regular exercise into their daily routines. In this post, I'll share some tips for making exercise a habit and reaping the many benefits it has to offer.",
+    "comments": [
+      {
+        "id": 1,
+        "userId": 3,
+        "body": "Great post!",
+        "timestamp": "2023-03-28T14:30:25.000Z"
+      },
+      {
+        "id": 2,
+        "userId": 5,
+        "body": "Thanks for sharing!",
+        "timestamp": "2023-03-28T15:05:25.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "timestamp": "2023-03-27T10:15:00.000Z",
+    "text": "Getting enough sleep is essential for good health and well-being. When you're well-rested, you're more alert, focused, and productive during the day. You're also less likely to suffer from chronic conditions like obesity, heart disease, and diabetes. In this post, I'll share some tips for getting a better night's sleep and improving the quality of your rest.",
+    "comments": [
+      {
+        "id": 1,
+        "userId": 6,
+        "body": "I completely agree!",
+        "timestamp": "2023-03-27T11:30:00.000Z"
+      },
+      {
+        "id": 2,
+        "userId": 9,
+        "body": "Great advice, thanks!",
+        "timestamp": "2023-03-27T12:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "userId": 1,
+        "body": "I struggle with getting enough sleep, any tips?",
+        "timestamp": "2023-03-27T13:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "userId": 4,
+    "timestamp": "2023-03-25T16:45:10.000Z",
+    "text": "Meditation has become increasingly popular in recent years as a way to reduce stress and improve mental well-being. In this post, I'll share my personal experience with meditation and how it has helped me to manage stress and anxiety, improve my focus and concentration, and cultivate a greater sense of calm and inner peace.",
+    "comments": [
+      {
+        "id": 1,
+        "userId": 2,
+        "body": "Thanks for sharing your experience!",
+        "timestamp": "2023-03-25T17:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "userId": 8,
+        "body": "I've been meaning to try meditation, this is inspiring!",
+        "timestamp": "2023-03-26T10:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "userId": 2,
+    "timestamp": "2023-03-27T10:05:13.000Z",
+    "text": "I just finished reading a great book on personal finance and wanted to share some of the key takeaways. One of the most important things I learned is the importance of setting financial goals and creating a budget to help achieve them. It's amazing how much control you can have over your financial future when you have a plan in place!",
+    "comments": [
+      {
+        "id": 1,
+        "userId": 5,
+        "body": "Thanks for sharing your insights! What was the name of the book?",
+        "timestamp": "2023-03-27T10:20:56.000Z"
+      },
+      {
+        "id": 2,
+        "userId": 3,
+        "body": "I agree, having a budget has been a game-changer for me. It's amazing how much money you can save when you're mindful of your spending.",
+        "timestamp": "2023-03-27T10:45:12.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "userId": 9,
+    "timestamp": "2023-03-26T09:15:40.000Z",
+    "text": "I'm excited to announce that I'll be starting a new job next month! It's been a long and difficult job search, but I'm thrilled to have found a position that aligns with my values and goals. I'm looking forward to the new challenges and opportunities that lie ahead.",
+    "comments": [
+      {
+        "id": 1,
+        "userId": 4,
+        "body": "Congratulations on the new job! What kind of work will you be doing?",
+        "timestamp": "2023-03-26T09:30:15.000Z"
+      },
+      {
+        "id": 2,
+        "userId": 8,
+        "body": "That's great news! I'm so happy for you.",
+        "timestamp": "2023-03-26T09:45:02.000Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "userId": 1,
+    "timestamp": "2023-03-25T16:50:08.000Z",
+    "text": "I had an incredible experience volunteering at my local animal shelter today. It was so rewarding to spend time with the animals and help support the important work they do. I encourage everyone to find a cause they're passionate about and get involved in their community!",
+    "comments": [
+      {
+        "id": 1,
+        "userId": 6,
+        "body": "That sounds amazing! I've been thinking about volunteering at an animal shelter too. Do you have any tips for getting started?",
+        "timestamp": "2023-03-25T17:05:33.000Z"
+      },
+      {
+        "id": 2,
+        "userId": 3,
+        "body": "I couldn't agree more. Volunteering is a great way to give back and make a difference in your community.",
+        "timestamp": "2023-03-25T17:30:12.000Z"
+      }
+    ]
+  }
+]

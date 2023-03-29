@@ -6,7 +6,6 @@ import users from "../../data/users.json";
 let params = new URL(document.location).searchParams;
 let search = params.get("search");
 
-console.log("fullposts", posts);
 if (search) {
   let newPosts = [];
   for (const post of posts) {
@@ -20,7 +19,7 @@ if (search) {
   }
   posts = newPosts;
 }
-console.log("newPosts", posts);
+
 posts.sort((a, b) => b.timestamp - a.timestamp);
 
 const FeedPage = () => {

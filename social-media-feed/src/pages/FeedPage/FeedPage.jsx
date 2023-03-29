@@ -1,5 +1,4 @@
 import Post from "../../components/Post";
-import SearchBar from "../../components/SearchBar";
 import posts from "../../data/posts.json";
 import users from "../../data/users.json";
 
@@ -25,7 +24,6 @@ posts.sort((a, b) => b.timestamp - a.timestamp);
 const FeedPage = () => {
   return (
     <>
-      <SearchBar searchParam={search} />
       {posts.map((post, i) => (
         <Post postId={post.id} keyIndex={i} isClickable={true} />
       ))}

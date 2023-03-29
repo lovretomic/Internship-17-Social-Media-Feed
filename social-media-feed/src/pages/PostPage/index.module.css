@@ -1,5 +1,6 @@
 .button {
-    margin: 5px;
+    display: flex;
+    margin: 20px auto 0;
     padding: 15px;
     background-color: rgb(26, 26, 26);
     color: white;

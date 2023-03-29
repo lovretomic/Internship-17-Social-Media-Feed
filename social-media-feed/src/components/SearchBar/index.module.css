@@ -23,13 +23,13 @@
 .searchBarButton {
     padding: 10px 25px;
     margin-left: 10px;
-    background-color: rgb(26, 26, 26);
-    color: white;
+    background-color: white;
+    color: rgb(26, 26, 26);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .searchBarButton:hover {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(182, 182, 182);
 }
